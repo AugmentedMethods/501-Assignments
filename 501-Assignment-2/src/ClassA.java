@@ -11,6 +11,7 @@ public final class ClassA implements java.io.Serializable, Runnable
     public void run() { }
 
     public int getVal(){ return val; }
+
     public void setVal(int i) throws Exception
 	{
 	    if ( i < 0 ) 
