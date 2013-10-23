@@ -2,24 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18decc0-b27a-43af-a667-598c9a289675" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClassDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FieldDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterfaceDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MethodDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClassA.java" afterPath="$PROJECT_DIR$/src/ClassA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClassExamination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FieldExamination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MethodExamination.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inspector.java" afterPath="$PROJECT_DIR$/src/Inspector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment-2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382417229016" ignored="false" />
+    <file path="/Dummy.txt" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382417733654" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382158849937" ignored="false" />
-    <file path="/fragment.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382161943482" ignored="false" />
-    <file path="/Inspector.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382417514078" ignored="false" />
+    <file path="/fragment.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382498715332" ignored="false" />
+    <file path="/Inspector.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382503013794" ignored="false" />
     <file path="/Utility.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382162581977" ignored="false" />
     <file path="/ClassDetails.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382416951260" ignored="false" />
     <file path="/MethodDetails.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382332730053" ignored="false" />
     <file path="/FieldDetails.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382336605627" ignored="false" />
+    <file path="/ClassExamination.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382501874317" ignored="false" />
+    <file path="/a.dummy" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382420228457" ignored="false" />
+    <file path="/MethodExamination.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382494860089" ignored="false" />
+    <file path="/FieldExamination.java" changelist="d18decc0-b27a-43af-a667-598c9a289675" time="1382497832407" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,72 +81,150 @@
     <favorites_list name="Assignment-2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Inspector.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Inspector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="65" selection-start="5489" selection-end="5489" vertical-scroll-proportion="0.88212925">
-              <folding>
-                <element signature="docComment;class#Inspector#0" expanded="false" />
-                <element signature="method#inspect#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getFieldsDetails#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getClassName#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getDirectSuperClass#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getInterfaces#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getMethods#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getConstructors#0;class#Inspector#0" expanded="false" />
-                <element signature="method#constructorExamination#0;class#Inspector#0" expanded="false" />
-                <element signature="method#methodExamination#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getExceptionType#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getParameterTypes#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getReturnType#0;class#Inspector#0" expanded="false" />
-                <element signature="method#getModifiers#0;class#Inspector#0" expanded="false" />
-                <element signature="method#printMethodDetailsException#0;class#Inspector#0" expanded="false" />
-                <element signature="method#printMethodDetailsParameters#0;class#Inspector#0" expanded="false" />
-                <element signature="method#printModifers#0;class#Inspector#0" expanded="false" />
-                <element signature="method#printModifers#1;class#Inspector#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClassA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="75" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldDetails.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FieldDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="25" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodDetails.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MethodDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="21" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Asst2TestDriver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Asst2TestDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="49" selection-start="3033" selection-end="3066" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.42509505">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Inspector.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Inspector.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="81" column="0" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.7205589">
+                  <folding>
+                    <element signature="docComment;class#Inspector#0" expanded="false" />
+                    <element signature="method#inspect#0;class#Inspector#0" expanded="false" />
+                    <element signature="e#997#1011#0" expanded="true" />
+                    <element signature="e#2011#2025#0" expanded="true" />
+                    <element signature="method#printObj#0;class#Inspector#0" expanded="false" />
+                    <element signature="method#printMethodDetailsException#0;class#Inspector#0" expanded="false" />
+                    <element signature="method#printMethodDetailsParameters#0;class#Inspector#0" expanded="false" />
+                    <element signature="method#printModifers#0;class#Inspector#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClassExamination.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ClassExamination.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="23" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClassA.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ClassA.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="75" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FieldDetails.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/FieldDetails.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="25" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MethodDetails.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/MethodDetails.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="21" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Asst2TestDriver.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Asst2TestDriver.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="86" column="0" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ClassExamination.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ClassExamination.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="33" column="17" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="docComment;class#ClassExamination#0" expanded="false" />
+                    <element signature="method#ClassExamination#0;class#ClassExamination#0" expanded="false" />
+                    <element signature="method#getClassName#0;class#ClassExamination#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InterfaceA.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/InterfaceA.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="53" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InterfaceB.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/InterfaceB.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="40" selection-start="92" selection-end="92" vertical-scroll-proportion="0.23151751">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MethodExamination.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/MethodExamination.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="83" column="11" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#getMethods#0;class#MethodExamination#0" expanded="false" />
+                    <element signature="method#getExceptionType#0;class#MethodExamination#0" expanded="false" />
+                    <element signature="method#getParameterTypes#0;class#MethodExamination#0" expanded="false" />
+                    <element signature="method#getReturnType#0;class#MethodExamination#0" expanded="false" />
+                    <element signature="method#getConstructors#0;class#MethodExamination#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClassD.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ClassD.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="21" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FieldExamination.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/FieldExamination.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="39" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="docComment;class#FieldExamination#0" expanded="false" />
+                    <element signature="method#FieldExamination#0;class#FieldExamination#0" expanded="false" />
+                    <element signature="method#fieldExamination#0;class#FieldExamination#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -168,13 +248,16 @@
         <option value="$PROJECT_DIR$/src/MethodDetails.java" />
         <option value="$PROJECT_DIR$/src/FieldDetails.java" />
         <option value="$PROJECT_DIR$/src/ClassDetails.java" />
+        <option value="$PROJECT_DIR$/src/MethodExamination.java" />
+        <option value="$PROJECT_DIR$/src/FieldExamination.java" />
+        <option value="$PROJECT_DIR$/src/ClassExamination.java" />
         <option value="$PROJECT_DIR$/src/Inspector.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="509" />
-    <option name="width" value="1411" />
+    <option name="x" value="314" />
+    <option name="width" value="1606" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -270,7 +353,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Asst2TestDriver" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Inspector false" />
+      <option name="PROGRAM_PARAMETERS" value="Inspector true" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -421,7 +504,11 @@
       <created>1382164639148</created>
       <updated>1382164639148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All the non refactoring based objectives are done, the print methods have been drastically changed to increase readbility.">
+      <created>1382417738707</created>
+      <updated>1382417738707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -445,14 +532,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="509" y="0" width="1411" height="1080" extended-state="0" />
+    <frame x="314" y="0" width="1606" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3902174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -465,11 +553,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16975537" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14831606" sideWeight="0.60978264" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0076086954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -516,7 +603,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Name of Declaring class, immediate superclass and interfaces is done for classA, B and C." />
+    <option name="LAST_COMMIT_MESSAGE" value="All the non refactoring based objectives are done, the print methods have been drastically changed to increase readbility." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -531,6 +618,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Name of Declaring class, immediate superclass and interfaces is done for classA, B and C." />
+    <MESSAGE value="All the non refactoring based objectives are done, the print methods have been drastically changed to increase readbility." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -540,34 +628,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ObjectInspector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Asst2TestDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="26" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="180" selection-end="180" vertical-scroll-proportion="0.23011844">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="32" selection-start="197" selection-end="197" vertical-scroll-proportion="0.28911564">
@@ -585,20 +645,6 @@
     <entry file="file://$PROJECT_DIR$/src/ObjectInspector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="56" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.6141215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="18" selection-end="18" vertical-scroll-proportion="0.033663366">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="140" selection-end="140" vertical-scroll-proportion="0.13821138">
           <folding />
         </state>
       </provider>
@@ -644,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Asst2TestDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="49" selection-start="3033" selection-end="3066" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="75" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
@@ -658,29 +697,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FieldExamination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="39" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#FieldExamination#0" expanded="false" />
+            <element signature="method#FieldExamination#0;class#FieldExamination#0" expanded="false" />
+            <element signature="method#fieldExamination#0;class#FieldExamination#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodExamination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="11" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getMethods#0;class#MethodExamination#0" expanded="false" />
+            <element signature="method#getExceptionType#0;class#MethodExamination#0" expanded="false" />
+            <element signature="method#getParameterTypes#0;class#MethodExamination#0" expanded="false" />
+            <element signature="method#getReturnType#0;class#MethodExamination#0" expanded="false" />
+            <element signature="method#getConstructors#0;class#MethodExamination#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Asst2TestDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Inspector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="65" selection-start="5489" selection-end="5489" vertical-scroll-proportion="0.88212925">
+        <state line="81" column="0" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.7205589">
           <folding>
             <element signature="docComment;class#Inspector#0" expanded="false" />
             <element signature="method#inspect#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getFieldsDetails#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getClassName#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getDirectSuperClass#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getInterfaces#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getMethods#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getConstructors#0;class#Inspector#0" expanded="false" />
-            <element signature="method#constructorExamination#0;class#Inspector#0" expanded="false" />
-            <element signature="method#methodExamination#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getExceptionType#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getParameterTypes#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getReturnType#0;class#Inspector#0" expanded="false" />
-            <element signature="method#getModifiers#0;class#Inspector#0" expanded="false" />
+            <element signature="e#997#1011#0" expanded="true" />
+            <element signature="e#2011#2025#0" expanded="true" />
+            <element signature="method#printObj#0;class#Inspector#0" expanded="false" />
             <element signature="method#printMethodDetailsException#0;class#Inspector#0" expanded="false" />
             <element signature="method#printMethodDetailsParameters#0;class#Inspector#0" expanded="false" />
             <element signature="method#printModifers#0;class#Inspector#0" expanded="false" />
-            <element signature="method#printModifers#1;class#Inspector#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassExamination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="17" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;class#ClassExamination#0" expanded="false" />
+            <element signature="method#ClassExamination#0;class#ClassExamination#0" expanded="false" />
+            <element signature="method#getClassName#0;class#ClassExamination#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="53" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="92" selection-end="92" vertical-scroll-proportion="0.23151751">
+          <folding />
         </state>
       </provider>
     </entry>

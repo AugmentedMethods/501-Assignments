@@ -14,17 +14,17 @@ import java.lang.Class;
 
 public class Inspector {
 
-    private ArrayList<String> log;
     private Object obj;
     private Class classObj;
     private ArrayList<ClassDetails> classList;
     private ClassDetails currentClass;
     private MethodDetails currentMethod;
+    private boolean recursive;
 
     public void inspect(Object obj, boolean recursive)
     {
-        log = new ArrayList<String>();
         this.obj = obj;
+        this.recursive = recursive;
         runClassTest();
     }
 
@@ -37,137 +37,53 @@ public class Inspector {
         classList.add(newClassDetails);
         currentClass = classList.get(0);
 
-        getClassName();
-        getDirectSuperClass();
-        getInterfaces();
-        getMethods();
-        getConstructors();
-        getFieldsDetails();
+        ArrayList<ClassDetails> currentClassPointer = new ArrayList<ClassDetails>();
+        currentClassPointer.add(currentClass);
 
-        //printLog();
+        ClassExamination examineClass = new ClassExamination(classObj, currentClassPointer);
+        examineClass.runClassExamination();
+
+        MethodExamination examineMethod = new MethodExamination(classObj,currentClassPointer );
+        examineMethod.getMethods();
+
+        FieldExamination examineFields = new FieldExamination(classObj,currentClassPointer);
+        examineFields.fieldExamination();
+
+        if(recursive == true)
+            startRecursion(1);
         printObj();
     }
 
-    private void getFieldsDetails()
+    private void startRecursion(int arrayPointer)
     {
-        for(Field f : classObj.getDeclaredFields())
+        try{
+            Class newClassObj = classObj.getSuperclass();
+            System.out.println(newClassObj.getName());
+            classObj = newClassObj;
+            ClassDetails newClassDetails = new ClassDetails();
+            classList.add(newClassDetails);
+            currentClass = classList.get(arrayPointer);
+
+            ArrayList<ClassDetails> currentClassPointer = new ArrayList<ClassDetails>();
+            currentClassPointer.add(currentClass);
+            ClassExamination examineClass = new ClassExamination(classObj, currentClassPointer);
+
+            examineClass.runClassExamination();
+            System.out.println("This Three");
+
+            MethodExamination examineMethod = new MethodExamination(classObj,currentClassPointer );
+            examineMethod.getMethods();
+
+            FieldExamination examineFields = new FieldExamination(classObj,currentClassPointer);
+            examineFields.fieldExamination();
+
+            if(!classObj.isInstance(Object.class))
+                startRecursion(arrayPointer +1);
+        }
+        catch(Error e)
         {
-            FieldDetails newField = new FieldDetails();
-            newField.setName(f.getName());
-            newField.setType(f.getType().toString());
-            newField.setModifier(f.getModifiers());
-            currentClass.setFields(newField);
 
         }
-
-    }
-
-    private void getClassName()
-    {
-        currentClass.setDeclaringClass(classObj.getCanonicalName());
-    }
-
-    private void getDirectSuperClass()
-    {
-        currentClass.setSuperClass(classObj.getGenericSuperclass().toString());
-    }
-
-    private void getInterfaces()
-    {
-        for(Class<?> c : classObj.getInterfaces() )
-            currentClass.setInterfaces(c.toString());
-    }
-
-    private void getMethods()
-    {
-        for(Method m : classObj.getDeclaredMethods() )
-        {
-            try{
-                this.currentMethod = new MethodDetails();
-                currentClass.setMethods(currentMethod);
-                currentMethod.setMethodName(m.getName());
-                methodExamination(m);
-            }
-            catch (SecurityException e)
-            {
-                log.add("Error: "+e.toString());
-            }
-        }
-    }
-
-    private void getConstructors()
-    {
-        for(Constructor<?> c : classObj.getDeclaredConstructors())
-        {
-            try{
-                this.currentMethod = new MethodDetails();
-                currentClass.setConstructors(currentMethod);
-                constructorExamination(c);
-            }
-            catch (SecurityException e)
-            {
-                log.add("Error: "+e.toString());
-            }
-        }
-    }
-
-    private void constructorExamination(Constructor<?> c)
-    {
-        currentMethod.setMethodName("Constructor");
-        try{
-            for(Type t: c.getParameterTypes())
-                currentMethod.setParameters(t.toString());
-            if(currentMethod.getParameters().size() == 0)
-                currentMethod.setParameters("");
-        }
-        catch (Error e)
-        {log.add("Exception in getParameterTypes");}
-        currentMethod.setModifiers(c.getModifiers());
-    }
-
-    private void methodExamination(Method methodObj)
-    {
-        //horrible logic on the if statment, should change it.
-        if(!methodObj.getDeclaringClass().isInstance(classObj)){
-            getExceptionType(methodObj);
-            getParameterTypes(methodObj);
-            getReturnType(methodObj);
-            getModifiers(methodObj);
-        }
-    }
-
-    private void getExceptionType(Method methodObj)
-    {
-        try{
-            for(Type t: methodObj.getExceptionTypes())
-                currentMethod.setExceptions(t.toString());
-        }
-        catch (Error e)
-        {log.add("Error at getException type");}
-    }
-
-    private void getParameterTypes(Method methodObj)
-    {
-        try{
-            for(Type t: methodObj.getGenericParameterTypes())
-                currentMethod.setParameters(t.toString());
-        }
-        catch (Error e)
-        {log.add("Exception in getParameterTypes");}
-    }
-
-    private void getReturnType(Method methodObj)
-    {
-        try{
-            currentMethod.setReturnType(methodObj.getGenericReturnType().toString());
-        }
-        catch (Error e)
-        {log.add("Exception in getParameterTypes");}
-    }
-
-    private void getModifiers(Method methodObj)
-    {
-        currentMethod.setModifiers(methodObj.getModifiers());
     }
 
     private void printObj()
@@ -335,6 +251,7 @@ public class Inspector {
 
             default:
                 System.out.println(f.getName() + " Modifier: " + "Failure");
+                System.out.println(f.getName() + " Modifier: " + f.getModifier());
                 break;
         }
     }
