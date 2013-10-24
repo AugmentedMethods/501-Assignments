@@ -21,7 +21,6 @@ public class FieldExamination {
     {
         this.classObj = classObj;
         this.currentClass = currentClass;
-        this.obj = obj;
         this.fieldRecursion = fieldRecursion;
     }
 

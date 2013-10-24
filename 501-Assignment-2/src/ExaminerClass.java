@@ -52,9 +52,8 @@ public class ExaminerClass {
     private void startRecursion(int arrayPointer)
     {
         try{
-            Class newClassObj = classObj.getSuperclass();
 
-            classObj = newClassObj;
+            classObj = classObj.getSuperclass();
             ClassDetails newClassDetails = new ClassDetails();
             classList.add(newClassDetails);
             currentClass = classList.get(arrayPointer);
