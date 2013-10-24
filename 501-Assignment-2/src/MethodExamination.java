@@ -14,9 +14,9 @@ public class MethodExamination {
 
     private Class classObj;
     private MethodDetails currentMethod;
-    private ArrayList<ClassDetails> currentClass;
+    private ClassDetails currentClass;
 
-    public MethodExamination(Class classObj,ArrayList<ClassDetails> currentClass)
+    public MethodExamination(Class classObj,ClassDetails currentClass)
     {
         this.classObj = classObj;
         this.currentMethod = currentMethod;
@@ -30,7 +30,7 @@ public class MethodExamination {
         {
             try{
                 this.currentMethod = new MethodDetails();
-                currentClass.get(0).setMethods(currentMethod);
+                currentClass.setMethods(currentMethod);
                 currentMethod.setMethodName(m.getName());
                 methodExamination(m);
             }
@@ -90,7 +90,7 @@ public class MethodExamination {
         {
             try{
                 currentMethod = new MethodDetails();
-                currentClass.get(0).setConstructors(new MethodDetails());
+                currentClass.setConstructors(new MethodDetails());
                 constructorExamination(c);
             }
             catch (SecurityException e)

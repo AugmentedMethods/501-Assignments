@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Sean
@@ -9,6 +11,22 @@ public class FieldDetails {
     private String name;
     private String type;
     private int modifier;
+    private ArrayList<String> value;
+
+    public  FieldDetails()
+    {
+        value = new ArrayList<String>();
+    }
+
+    public ArrayList<String> getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value.add(value);
+    }
+
+
 
     public String getName() {
         return name;

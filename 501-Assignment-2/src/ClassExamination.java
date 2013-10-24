@@ -11,9 +11,9 @@ import java.util.ArrayList;
  */
 public class ClassExamination {
     private Class classObj;
-    private ArrayList<ClassDetails> currentClass;
+    private ClassDetails currentClass;
 
-    ClassExamination( Class classObj, ArrayList<ClassDetails> currentClass)
+    ClassExamination( Class classObj, ClassDetails currentClass)
     {
         this.classObj = classObj;
         this.currentClass = currentClass;
@@ -30,19 +30,20 @@ public class ClassExamination {
 
     private void getClassName()
     {
-        currentClass.get(0).setDeclaringClass(classObj.getCanonicalName());
+        currentClass.setDeclaringClass(classObj.getCanonicalName());
     }
 
     private void getDirectSuperClass()
     {
         if(!classObj.isInstance(Object.class))
-            currentClass.get(0).setSuperClass(classObj.getGenericSuperclass().toString());
+            currentClass.setSuperClass(classObj.getGenericSuperclass().toString());
+
     }
 
     private void getInterfaces()
     {
         for(Class<?> c : classObj.getInterfaces() )
-            currentClass.get(0).setInterfaces(c.toString());
+            currentClass.setInterfaces(c.toString());
 
     }
 }
