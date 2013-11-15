@@ -10,9 +10,9 @@ package BasicObjects;
 public class ConnectedObjects {
     private SimpleObjectWithPrimitives secondObj;
 
-    public ConnectedObjects(int var1, int var2)
+    public ConnectedObjects(SimpleObjectWithPrimitives obj)
     {
-        secondObj = new SimpleObjectWithPrimitives(var1, var2);
+        secondObj = obj;
     }
 
 }

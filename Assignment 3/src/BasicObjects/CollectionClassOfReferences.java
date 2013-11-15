@@ -13,11 +13,11 @@ public class CollectionClassOfReferences {
 
     private ArrayList<Object> listOfObj;
 
-    public CollectionClassOfReferences ()
+    public CollectionClassOfReferences (SimpleObjectWithPrimitives ... args)
     {
         listOfObj = new ArrayList<Object>();
-        listOfObj.add(new SimpleObjectWithPrimitives(1,2));
-        listOfObj.add(new SimpleObjectWithPrimitives(4,2));
+        for(SimpleObjectWithPrimitives s : args)
+            listOfObj.add(s);
 
     }
 }

@@ -11,9 +11,9 @@ public class ArrayObjectReference {
 
     private Object[] arrayReferences;
 
-    public ArrayObjectReference ()
+    public ArrayObjectReference (Object[] objArray)
     {
-        arrayReferences = new Object[]{new ObjectPrimitiveArray(2,4), new ObjectPrimitiveArray(1,5)};
+        arrayReferences = objArray;
 
     }
 

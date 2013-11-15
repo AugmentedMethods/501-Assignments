@@ -7,6 +7,7 @@ package BasicObjects;
  * Time: 1:43 PM
  * To change this template use File | Settings | File Templates.
  */
+
 public class SimpleObjectWithPrimitives {
     private int var1;
     public double var2;
