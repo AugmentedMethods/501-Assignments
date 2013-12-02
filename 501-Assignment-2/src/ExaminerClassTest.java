@@ -21,7 +21,7 @@ public class ExaminerClassTest {
         ExaminerClass testObj = new ExaminerClass(new Object(), false);
         assertTrue("Pass", true)    ;
     }
-
+                                                                                                                                                                       e
 
 
 

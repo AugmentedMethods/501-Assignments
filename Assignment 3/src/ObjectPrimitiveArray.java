@@ -1,5 +1,3 @@
-package BasicObjects;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Sean

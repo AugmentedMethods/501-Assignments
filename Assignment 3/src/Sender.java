@@ -1,16 +1,15 @@
-import java.awt.Point;
 import java.io.*;
 import java.util.*;
 import org.jdom2.*;
 import java.net.Socket;
-import BasicObjects.*;
+
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
 public class Sender {
 
     private List<Object> objList = new ArrayList<Object>();
-    private int port = 3332;
+    private int port = 8880;
     private String server = "localhost";
 
     public static void main(String[] args) throws Exception {
