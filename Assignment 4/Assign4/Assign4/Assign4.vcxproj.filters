@@ -24,16 +24,13 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ReadAndWrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="BasicConvolution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FileReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IS.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ConvolveIS.h">
+    <ClInclude Include="FFT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,34 +38,17 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment4.cpp">
+    <ClCompile Include="Assign4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadAndWrite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BasicConvolution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileReader.cpp">
+    <ClCompile Include="FFT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IS.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ConvolveIS.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="..\..\DrumsDry.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
-    <Media Include="..\..\l960large_brite_hall.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
-    <Media Include="DrumsDryTest.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
-    <Media Include="TestOut.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
   </ItemGroup>
 </Project>

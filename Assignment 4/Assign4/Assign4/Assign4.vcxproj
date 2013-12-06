@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0511086B-EA1B-44B6-969F-2D58C4882E55}</ProjectGuid>
+    <ProjectGuid>{BEFA6733-447E-40FD-8C08-F7EF5D88D2C6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Assignment4</RootNamespace>
+    <RootNamespace>Assign4</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,7 +47,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -61,7 +62,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -79,29 +81,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FFT.h" />
+    <ClInclude Include="ReadAndWrite.h" />
     <ClInclude Include="BasicConvolution.h" />
-    <ClInclude Include="ConvolveIS.h" />
-    <ClInclude Include="FileReader.h" />
-    <ClInclude Include="IS.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment4.cpp" />
+    <ClCompile Include="Assign4.cpp" />
+    <ClCompile Include="FFT.cpp" />
+    <ClCompile Include="ReadAndWrite.cpp" />
     <ClCompile Include="BasicConvolution.cpp" />
-    <ClCompile Include="ConvolveIS.cpp" />
-    <ClCompile Include="FileReader.cpp" />
-    <ClCompile Include="IS.cpp" />
-    <ClCompile Include="stdafx.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="..\..\DrumsDry.wav" />
-    <Media Include="..\..\l960large_brite_hall.wav" />
-    <Media Include="DrumsDryTest.wav" />
-    <Media Include="TestOut.wav" />
+    <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
